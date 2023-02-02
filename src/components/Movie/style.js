@@ -26,10 +26,12 @@ export const ContainerMovie = styled.div`
 `
 
 export const BoxError = styled.div`
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    gap: 10px;
     
     img{
         width: 100%;

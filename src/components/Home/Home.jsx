@@ -37,7 +37,7 @@ function Home() {
         
             
 
-        <button onClick={getMovie}><img src={Logo} alt = "Foto do Filme"/>Encontra filme</button>
+        <button onClick={getMovie}><img src={Logo} alt = "Foto do Filme"/>Encontrar filme</button>
         <p>
             Clique em "Encontrar filme" que traremos informações de algum filme para você assistir hoje.
         </p>
