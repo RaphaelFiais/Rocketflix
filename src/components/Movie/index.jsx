@@ -12,7 +12,7 @@ function Movie({movie}) {
           {movie.status_code === 34 || movie.adult == true ?(
             <A.BoxError>
             <img src={Code} alt="Foto de Dev" />
-            <p className="textBoxError">Ops, hoje não é dia de assistir filme. Bora codar!!</p>
+            <p className="textBoxError">Ops, hoje não é dia de assistir filme. Bora estudar!!</p>
             </A.BoxError>            
           ) 
         : (<A.ContainerMovie>
